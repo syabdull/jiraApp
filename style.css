@@ -137,14 +137,25 @@ body{
 
   }
   .task-area{
-    height:calc(100%-1rem-1.5rem);
+    height:5.5rem;
     padding:5px;
     font-size:1.25rem;
     background-color:rgb(220, 226, 213);
+    overflow:auto;
+    outline:none;
+    word-break:break-all;
+    word-wrap:break-word;
+
 
   }
   .active{
     border:2px solid red;
 
 
+  }
+  .lock-unlock{
+ font-size:1.5rem;
+
+ margin-left:18.5rem;
+  
   }
